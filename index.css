@@ -8,7 +8,7 @@ h1 {
 	font-size:60px;
 	color:white; 
 	background-color:#e6b800; 
-	padding:25px;
+	padding:10px;
 }
 
 h3 {
@@ -16,8 +16,11 @@ h3 {
 	font-family:baskerville; 
 	font-size:20px;
 	color:white; 
-	background-color:#e6b800; 
-	padding:10px;
+}
+
+p {
+	font-family:arial;
+	font-size:15px;
 }
 #bar {
 	background-color:#9f9fdf; 
@@ -25,6 +28,7 @@ h3 {
 	text-align:center;
 
 }
+
 .navlinks {
 	background-color:#2d5986; 
 	padding:5px 5px 5px 5px; 
@@ -34,6 +38,20 @@ h3 {
 
 #about, #music {
 	font-family: verdana;
-	font-size: 15px;
+	font-size: 10px;
 	color:gray;
+}
+
+.video {
+	float:left;
+	margin: 10px;
+}
+
+.song {
+	border: 3px solid #e6b800;
+  	padding: auto;
+}
+
+.lyrics {
+	margin: auto;
 }
