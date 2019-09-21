@@ -11,6 +11,10 @@ h1 {
 	padding:10px;
 }
 
+h2 {
+	text-align:center;
+}
+
 h3 {
 	text-align:center; 
 	font-family:baskerville; 
@@ -21,7 +25,9 @@ h3 {
 p {
 	font-family:arial;
 	font-size:15px;
+	line-height:1;
 }
+
 #bar {
 	background-color:#9f9fdf; 
 	padding:10px; 
@@ -42,16 +48,22 @@ p {
 	color:gray;
 }
 
+.song {
+	border: 3px solid #e6b800;
+  	padding: auto;
+  	overflow:auto;
+}
+
 .video {
 	float:left;
 	margin: 10px;
 }
 
-.song {
-	border: 3px solid #e6b800;
-  	padding: auto;
-}
-
 .lyrics {
 	margin: auto;
+	text-align: center;
+}
+
+.twocovers {
+	margin:auto;
 }
