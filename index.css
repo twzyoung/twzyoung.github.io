@@ -30,19 +30,23 @@ p {
 }
 
 #bar {
-	background-color:#9f9fdf; 
-	padding:10px; 
-	text-align:center;
-
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
 }
 
-.navlinks {
-	background-color:#2d5986; 
-	padding:5px 5px 5px 5px; 
+.navlinks {  
 	color:white; 
 	font-family:'Poiret One', cursive;
 	font-size:20px;
+	display: block;
+  	padding: 14px 16px;
+	text-decoration: none;
+	float:left;
+
 }
+
 
 #about, #music {
 	font-family: verdana;
