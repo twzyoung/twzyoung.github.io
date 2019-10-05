@@ -46,9 +46,9 @@ li a {
 }
 
 li a:hover {
-  color: #d9b3ff;
-  font-weight: bold;
-  opacity:1;
+  	color: #d9b3ff;
+  	font-weight: bold;
+  	opacity:1;
 }
 
 
@@ -70,29 +70,52 @@ p {
 	line-height:1;
 }
 
+.embeddedlink {
+	font-family:'Josefin Slab', serif;
+	font-size:15px;
+	line-height:1;
+	color:white;
+	opacity: 0.5;
+	text-decoration: none;
+}
+.embeddedlink:hover{
+	color: #d9b3ff;
+	opacity: 1;
+  	font-weight: bold;
+  	
+}
 
-#about, #music {
+#music {
 	font-family: verdana;
 	font-size: 10px;
 	color:gray;
+	text-align: center;
 }
 
 .song {
-	border: 3px solid #e6b800;
+	display:grid;
+	grid-template-columns: 60% 40%;
+	border: 3px solid #d9b3ff;
   	padding: auto;
   	overflow:auto;
+  	justify-content: center;
+
 }
 
 .video {
 	float:left;
-	margin: 10px;
+	margin: 1%;
 }
 
 .lyrics {
-	margin: auto;
+	margin: 1%;
 	text-align: center;
 }
 
-.twocovers {
-	margin:auto;
+.twzcovers {
+	display:grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto; 
+	grid-gap: 1%;
+	justify-content: center;
 }
